@@ -5,7 +5,6 @@ class Solution:
         
         ROW = len(grid)
         COL = len(grid[0])
-        visited = set ()
         islands = 0
         
         
