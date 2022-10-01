@@ -16,6 +16,7 @@ class Solution:
         for i in range(n):
             #we append j in visited but check for i also
             if i not in visited:
+                visited.append(i)
                 dfs(i)
                 count += 1
         return count 
